@@ -6,3 +6,14 @@
     padding: 10px;
   }
 }
+.tagcloud-post {
+  background-color: white;
+  > a {
+    display: inline-block;
+    padding: 10px;
+  }
+  a:hover {
+    background-color: #333333;
+    color: white;
+  }
+}

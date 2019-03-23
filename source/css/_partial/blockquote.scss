@@ -1,0 +1,22 @@
+.blockquote-red {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0.7em 0.7em;
+    color: #000;
+    /* background color quote */
+    background: #FBD7D2;
+    border-left: 0.35em solid #F82C3B;
+    // border-radius: 0 5px 5px 0;
+}
+
+.blockquote-red-title {
+    font-family: 'Ubuntu Condensed';
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000 !important;
+    border-bottom: 1px dashed #BE7000 !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+}

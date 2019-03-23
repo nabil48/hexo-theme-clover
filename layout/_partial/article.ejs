@@ -4,6 +4,18 @@
   <article class="content">
     <%- post.more %>
   </article>
+  <!-- tag cloud -->
+  <div class="tagcloud-post">
+    <%- tagcloud({
+      min_font: 12, 
+      max_font: 30, 
+      amount: 300, 
+      color: true, 
+      start_color: '#aaa', 
+      end_color: '#333',
+    }) %>
+  </div>
+  <%- partial('_widget/author.ejs') %>
   <footer class="f-cf">
     <% if (post.prev) { %>
       <a href="<%- url_for(post.prev.path) %>" class="link f-fl">⟵<%= post.prev.title %></a>
